@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "modes": ["unranked"],
+  "requeueDelayMs": 1000,
+  "beepOnSkip": true,
+  "blocked": [
+    "ABCD#123",
+    { "code": "WXYZ#9", "note": "rage quits every set" }
+  ]
+}

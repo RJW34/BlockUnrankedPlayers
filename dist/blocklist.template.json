@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "modes": ["unranked"],
+  "requeueDelayMs": 1000,
+  "blocked": []
+}

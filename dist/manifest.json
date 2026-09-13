@@ -1,0 +1,11 @@
+{
+    "name":  "slippi-blocklist",
+    "dllName":  "dinput8.dll",
+    "exeNames":  [
+                     "Slippi Dolphin.exe",
+                     "Slippi_Dolphin.exe"
+                 ],
+    "note":  "dllSha256 is filled in by hook/build.ps1",
+    "dllSha256":  "c9aa4b240d1e7aaa5a78fad90fe3a2f6cd167dc232cb84bf39daa347693f0ecf",
+    "hookVersion":  "1.0.0"
+}
