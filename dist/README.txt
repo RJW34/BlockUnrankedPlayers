@@ -16,8 +16,9 @@ USE
   itself a few seconds later, and the other person just sees a longer search.
 
   Ranked and Direct are never filtered.
-  Edit the list any time with  "Blocklist Manager.cmd"  - changes apply the next
-  time you press Search.
+  To block someone after playing them, open "Blocklist Manager.cmd" (Dolphin can
+  stay open) and click "Recent opponents...". Changes apply the next time you
+  press Search.
 
 CHECK IT IS WORKING
   After playing online once, open

@@ -19,15 +19,27 @@ changes, no admin rights.
 Requirements: Windows 10/11, Slippi Launcher, and at least one online session
 played (so the Launcher has downloaded Dolphin).
 
-1. Download the latest `SlippiBlocklist-x.y.z.zip` from the
-   [Releases page](../../releases/latest) and extract it anywhere.
-2. Close Slippi Dolphin if it is open.
+1. Open the [Releases page](../../releases/latest). Under **Assets**, download
+   `SlippiBlocklist-x.y.z.zip` (not "Source code"). Right-click the zip,
+   choose **Extract All...**, and open the extracted folder.
+2. Close Slippi Dolphin if it is open. The Slippi Launcher itself can stay open.
 3. Double-click **`Install.cmd`**. If Windows shows "Windows protected your PC",
    choose *More info* and then *Run anyway*; the DLL is not code-signed.
+   A black window reports what it did and ends with "Done".
 4. The Blocklist Manager opens. Type a connect code such as `ABCD#123` and press
    **Add**, or click **Recent opponents...** and block from the list.
 
 Then queue Unranked as usual.
+
+Adding someone later: open **`Blocklist Manager.cmd`** from the extracted folder
+at any time, even while Dolphin is running. Changes are saved immediately and
+apply the next time you press Search. **Recent opponents...** lists the people
+from your latest replays, newest first, so you can block someone right after
+playing them.
+
+If you downloaded the repository source instead of the release zip, the same
+`Install.cmd`, `Uninstall.cmd` and `Blocklist Manager.cmd` are in the top
+folder and forward to the files in `dist`.
 
 To remove the add-on, double-click **`Uninstall.cmd`**. Your blocklist file is
 kept.
